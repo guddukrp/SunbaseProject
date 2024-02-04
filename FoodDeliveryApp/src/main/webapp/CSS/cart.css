@@ -1,0 +1,197 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard-order {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+}
+
+.order-address {
+    margin-bottom: 20px;
+}
+
+.order-address p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+.order-address h4 {
+    margin: 5px 0;
+}
+
+
+
+.order-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.order-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.order-detail {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+
+.item-name {
+    margin: 0;
+    width: 200px;          
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.order-input-actions {
+    display: flex;
+    gap: 10px; 
+}
+.order-detail i {
+    color: #ff3d3d;
+    cursor: pointer;
+}
+
+.order-detail input {
+    width: 30px;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.order-price {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+}
+.addmore {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.addmore button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.addmore button:hover {
+    background-color: #2980b9;
+}
+
+.divider {
+    margin: 20px 0;
+    border-top: 1px solid #ddd;
+    
+}
+
+.order-total p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.order-total span {
+    float: right;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-promo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-promo {
+    flex-grow: 1;
+    padding: 8px;
+}
+
+.button-promo {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkout {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.checkout:hover,
+.button-promo:hover {
+    background-color: #45a049;
+}
+
+/* Add these styles to your existing CSS */
+
+.order-input-actions {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.order-input-actions input {
+    width: 30px;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.update-button, .remove-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-button {
+    background-color: #e74c3c;
+    margin-left: 10px; /* Add margin to separate Update and Remove buttons */
+}
