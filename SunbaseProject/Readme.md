@@ -1,6 +1,6 @@
-# Customer Management System
+# Sunbase Project 
 
-This project is a simple web application for managing customer information. It allows users to view a list of customers, add new customers, edit existing customer details, delete customers, and search for customers based on various criteria.
+This project is a simple web application for managing customer information. It fetch Customer Details data using API and Store in Local Database. It allows users to view a list of customers, add new customers, edit existing customer details, delete customers and search for customers based on various criteria like firstname, city, email and phone no.
 
 ## Features
 
@@ -44,13 +44,13 @@ This project is a simple web application for managing customer information. It a
 
 **To run this project locally, follow these steps**:
    
-1. Download the project and import it into Eclipse IDE.
+1. Download the SunbaseProject and import it into Eclipse IDE.
    
 2. Run the application by navigating to the index.jsp file and selecting "Run on Server".
    
 3. Access the application through [http://localhost:8080/SunbaseProject/index.jsp](http://localhost:8080/SunbaseProject/index.jsp)
    
-4. Log in using your credentials on the prompted login page.
+4. Log in using your credentials on the prompted login page.(ex: login id= "test@sunbasedata.com", password="Test@123")
    
   ![page1](https://github.com/guddukrp/SunbaseProject/assets/91307403/ff43efdf-a537-4884-b89f-b2472b8f6524)
 5. View the customer list upon successful login.
