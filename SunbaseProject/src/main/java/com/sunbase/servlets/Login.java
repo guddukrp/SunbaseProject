@@ -35,7 +35,7 @@ public class Login extends HttpServlet {
 			response.sendRedirect("customerList.jsp");
 
 		}else {
-			response.sendRedirect("login.jsp?error=Invalid username or password! Try Again!");
+			response.sendRedirect("index.jsp?error=Invalid username or password! Try Again!");
 			
 		}
 		
